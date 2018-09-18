@@ -112,7 +112,7 @@ input {
 
 output {
        amazon_es {
-              hosts => ["search-analytics-development-v4-s73xhf3idca6b3bo7iks3lg7ey.us-east-1.es.amazonaws.com"]
+              hosts => "hostname of the elasticsearch"
               region => "us-east-1"
               aws_access_key_id => 'access key'
               aws_secret_access_key => 'secret key'
