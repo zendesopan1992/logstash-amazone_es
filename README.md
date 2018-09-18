@@ -114,8 +114,8 @@ output {
        amazon_es {
               hosts => ["search-analytics-development-v4-s73xhf3idca6b3bo7iks3lg7ey.us-east-1.es.amazonaws.com"]
               region => "us-east-1"
-              aws_access_key_id => 'AKIAJ7EUEKB6QACSGA3A'
-              aws_secret_access_key => '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'
+              aws_access_key_id => 'access key'
+              aws_secret_access_key => 'secret key'
               index => "actv8-nginx-logs-%{+YYYY.MM.dd}"
        }
 }
